@@ -16,6 +16,21 @@ Here are the tasks for todays class.
   - I expect all students to be able to come up with something original
     i.e. no coping each other
 
+  - HINT: Don't forget to add your new events to
+
+  ```python
+  self.events = [
+      WrongTurn(),
+      NormalTurn(),
+      GoodTurn(),
+      HealthTurn(),
+      LuckTurn(),
+      BestTurn(),
+  ]
+  ```
+
+  In the `Game.__init__()` method.
+
 2. Add two events
 
   - One event is has the possibility of an early VICTORY
@@ -25,7 +40,7 @@ Here are the tasks for todays class.
   - I expect all students to be able to come up with something original
     i.e. no coping each other
 
-3. Change the `say` function in a way you think improves the game.
+3. Change the `say` function in a way you feel improves the game.
 
   - Examples:
 
@@ -48,11 +63,13 @@ Here are the tasks for todays class.
 
   - There are many ways too do this, examples:
 
-    - Reduce change of getting the right path
+    - Reduce chance of getting the right path
 
     - Reduce players health
 
     - Increase distance to the centre of the maze
+
+    - Make more events where you can loose health/get closer to the minotaur
 
   - Don't go overboard it should still be playable
 
