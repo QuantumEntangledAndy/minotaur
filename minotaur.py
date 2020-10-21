@@ -480,7 +480,7 @@ class Game(Event):
 
 
 # Run the game
-if __name__ == "main":
+if __name__ == "__main__":
     game = Game()
     try:
         game.play()
