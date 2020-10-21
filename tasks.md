@@ -5,7 +5,21 @@ Todays tasks are all about READING CODE and making simple changes.
 
 Here are the tasks for todays class.
 
-1. Add three events
+Each event has the general form
+
+```python
+class EventName(Event):
+  """Description of event."""
+
+  def enter(self, player):
+    """This part is run when the event starts."""
+    self.say("Say something interesting")
+
+```
+
+You will need to create 3 new events of this form that are interesting.
+
+1. a) Add three events
 
   - One of these events must make the player gain an item
 
@@ -16,7 +30,9 @@ Here are the tasks for todays class.
   - I expect all students to be able to come up with something original
     i.e. no coping each other
 
-  - HINT: Don't forget to add your new events to
+
+1. b) After you have made the events:
+  - Add your new events to this AFTER YOU HAVE MADE THEM
 
   ```python
   self.events = [
