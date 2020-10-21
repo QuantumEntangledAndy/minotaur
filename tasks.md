@@ -31,16 +31,15 @@ Here are the tasks for todays class.
 
   In the `Game.__init__()` method.
 
-2. Add two events
+**POST** After you have made your events run this in the terminal (in the same directory as `minotaur.py`)
 
-  - One event is has the possibility of an early VICTORY
+```bash
+git add -A
+git commit -m "New events added"
+```
 
-  - The other event must have the possibility of an early GAME OVER
 
-  - I expect all students to be able to come up with something original
-    i.e. no coping each other
-
-3. Change the `say` function in a way you feel improves the game.
+2. Change the `say` function in a way you feel improves the game.
 
   - Examples:
 
@@ -59,7 +58,14 @@ Here are the tasks for todays class.
 
   - Try and be imaginative
 
-4. Make the game harder to win in some way
+**POST** After you have done this run this in the terminal (in the same directory as `minotaur.py`)
+
+  ```bash
+  git add -A
+  git commit -m "Improved the say function"
+  ```
+
+3. Make the game harder to win in some way
 
   - There are many ways too do this, examples:
 
@@ -73,6 +79,46 @@ Here are the tasks for todays class.
 
   - Don't go overboard it should still be playable
 
-3. Make sure to fix all warning from flake8
+**POST** After you have done this run this in the terminal (in the same directory as `minotaur.py`)
 
-4. Use python black to format your code
+  ```bash
+  git add -A
+  git commit -m "Made the game harder to win"
+  ```
+
+4. Make sure to fix all warning from flake8 (the little red dots)
+
+**POST** After you have done this run this in the terminal (in the same directory as `minotaur.py`)
+
+  ```bash
+  git add -A
+  git commit -m "Applied flake8 style"
+  ```
+
+5. Use python black to format your code
+
+```bash
+black minotaur.py
+```
+
+**POST** After you have done this run this in the terminal (in the same directory as `minotaur.py`)
+
+  ```bash
+  git add -A
+  git commit -m "Made it BLACK like my coffee"
+  ```
+
+
+6. DONE
+
+**POST** After EVERYTHING run this
+
+    ```bash
+    git archive -o "minotaur.zip"
+    ```
+
+Upload this zip into jypyter hub in the folder
+
+`appcompchem01(or 02)/06-Minotaur/`
+
+Then click submit on the assignments tab
