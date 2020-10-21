@@ -23,6 +23,8 @@ You will need to create 3 new events of this form that are interesting.
 
   - One of these events must make the player gain an item
 
+    - Try reading: `class LuckTurn(Event)` to understand how I did it and make something similar.
+
   - The other event must make them use the item
 
   - The third event will make them loose the item without using it
